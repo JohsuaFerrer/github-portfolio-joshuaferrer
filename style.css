@@ -93,3 +93,18 @@ ul li.act a{
 .info a:hover{
     background:beige;
 }
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 155%;
+    left: 67%;
+    transform: translate(-50%);
+    bottom: 0;
+    transition: left 2s ease;
+}
